@@ -71,4 +71,11 @@ docker-compose up -d keycloak
 ```
 
 See also:
+Kong Postman:
+https://documenter.getpostman.com/view/10587735/SzS7QS2c?version=latest
+
+KeyCloak Postman
+https://documenter.getpostman.com/view/7294517/SzmfZHnd
+
+Kong UI konga
 https://hub.docker.com/r/pantsel/konga/
