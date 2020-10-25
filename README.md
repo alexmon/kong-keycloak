@@ -70,6 +70,25 @@ start keycloak
 docker-compose up -d keycloak
 ```
 
+
+start Konga
+```
+docker-compose up -d konga
+```
+open 'http://localhost:1337' and create an admin account
+
+on Dashboard add new connection to Kong
+
+get hostname internal ip
+
+```
+HOST_IP=$(ipconfig getifaddr en0)
+```
+
+set Kong Admin API url: http://{HOST_IP}:8001
+
+
+
 See also:
 Kong Postman:
 https://documenter.getpostman.com/view/10587735/SzS7QS2c?version=latest
